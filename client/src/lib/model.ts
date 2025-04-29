@@ -1,4 +1,4 @@
-interface FormResponse {
+export interface FormResponse {
     message: string;
     form: {
       formTitle: string;
@@ -8,7 +8,7 @@ interface FormResponse {
     };
   }
   
-  interface FormSection {
+ export  interface FormSection {
     sectionId: number;
     title: string;
     description: string;
