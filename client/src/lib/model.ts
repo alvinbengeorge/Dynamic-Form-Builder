@@ -15,7 +15,7 @@ export interface FormResponse {
     fields: FormField[];
   }
   
-  interface FormField {
+ export interface FormField {
     fieldId: string;
     type: "text" | "tel" | "email" | "textarea" | "date" | "dropdown" | "radio" | "checkbox";
     label: string;
